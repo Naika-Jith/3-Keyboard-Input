@@ -10,10 +10,14 @@ namespace _3_Keyboard_Input
     {
         static void Main(string[] args)
         {
+            string response;
+            Console.WriteLine("Say hello!");
+            response = Console.ReadLine();
 
+            Console.WriteLine($"You said: {response}"); //String interpolation
+            Console.WriteLine("You said: " + response); //String concatenation
 
-
-
+            
 
 
         }
